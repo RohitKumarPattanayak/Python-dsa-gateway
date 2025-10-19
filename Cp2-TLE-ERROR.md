@@ -8,8 +8,7 @@
 ### Common Scenarios
 - **Competitive Programming**: Online judges like Codeforces, LeetCode, HackerRank
 - **Automated Testing Systems**: When code exceeds predefined execution limits
-- **Production Systems**: When operations timeout due to performanc
-e issues
+- **Production Systems**: When operations timeout due to performance issues
 
 ---
 
@@ -175,6 +174,7 @@ Python Functions and Its Time Complexity :
 
 Please check the below link 
 - https://wiki.python.org/moin/TimeComplexity
+= https://www.youtube.com/watch?v=PLV0f4RAMvI&list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU&index=6
 
 apps-fileview.texmex_20250904.00_p1
 TLE-error.te
