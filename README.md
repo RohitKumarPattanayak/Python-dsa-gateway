@@ -11,3 +11,4 @@ Note :
 2) You could also try giving an attempt and checkout my attempts one-by-one making sure you are developping the thought process.
 3) I would have uncommented only the best approach make sure to through each attemp in sequence inorder to build thought process.
 4) Look for pattern like `attempt-{any number}-start` and `attempt-{any number}-end` to find the previous attempt in a file.
+5) I have few optional set which you could wish to go through w.r.t to the timeline mentioned in the file name
