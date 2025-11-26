@@ -1,5 +1,6 @@
 # Question : given a string n and arry of chr m return number of existance of each chr of m in string n
-
+# n = 'rohitkumarpattanayak'
+# m = ['r','o','z']
 # Constraints : 
 # 1) 'a' <= s[i] <= 'z' 97-122 (ascii value)
 
