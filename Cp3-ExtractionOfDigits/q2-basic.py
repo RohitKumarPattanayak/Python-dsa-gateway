@@ -6,7 +6,7 @@
 # print(len(number))
 # attempt-1-end : 
 
-# Note
+# NOTE
 # 1) i have user 'augmented statements' here feel free to research
 # - count+=1 is count = count + 1
 # - number_cpy//=10 is number_cpy = number_cpy//10
@@ -28,7 +28,7 @@
 # print(count)
 # attempt-2-end : 
 
-# Note 
+# NOTE 
 # Attempt-2 (Mathematical approach using //)
 # Pros:
 # 1) True numeric logic — uses integer division and loops.
@@ -46,7 +46,7 @@ number = int(input('enter the number : '))
 print(int(log10(number)+1))
 # attempt-3-end : 
 
-# Note 
+# NOTE 
 # Attempt-3 ( trick using log 10 approach )
 # explore what log to the base 10 is - The term log 10 means the common logarithm of the number 10, which asks the question: "To what power must 10 be raised to get the number 10?". The answer is 1, because \(10^{1}=10\). 
 # trick when get a log to bas 10 of any number adding one to it and rounding it of gives you number of digit the umber had

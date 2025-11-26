@@ -72,7 +72,7 @@ Space Complexity = Auxiliary Space + Input Space
 - Memory required to store the input data
 - Fixed based on the size of the input
 
-### Important Note
+### Important NOTE
 > ⚠️ **Best Practice**: Never modify input variables to save space. This can lead to unexpected behavior and side effects.
 
 ---

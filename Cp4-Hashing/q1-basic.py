@@ -26,7 +26,7 @@
 # attempt-1-end :
 
 
-# Note
+# NOTE
 ## 1) In the above code i have used "list comprehension" I have used it to handle inputs like 1,2,3, (extra trailing comma)
 # new_list = [expression for item in iterable if condition]
 # 'expression': This is the operation applied to each item that satisfies the condition. It determines what value is added to the new_list.

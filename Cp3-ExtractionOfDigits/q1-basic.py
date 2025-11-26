@@ -11,7 +11,7 @@
 # attempt-1-end :
 
 
-# Note
+# NOTE
 ## the above code could be made better with the replacement of 'number_cpy = int(number_cpy/10)'
 # 1) Create a float (slower, more memory)
 # 2) Convert that float back to int.
@@ -32,5 +32,5 @@ while(number_cpy):
     number_cpy = number_cpy//10
 # attempt-2-End :
 
-# Note : 
+# NOTE : 
 # 1) make sure never to change/manipulate the initial input payload create a copy and proceed manipulating the copy.

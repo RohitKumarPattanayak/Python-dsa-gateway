@@ -18,6 +18,6 @@ else:
     print('it is not a pallindrome')
 # attempt-1-end : 
 
-# note : 
+# NOTE : 
 # 1) Here time complexity will be o(log10(n)) as each iteration we are dividing the number by 10
 # 2) Here Space complexity remains constant O(1)

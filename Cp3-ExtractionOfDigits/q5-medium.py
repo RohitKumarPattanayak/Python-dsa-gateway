@@ -22,7 +22,7 @@
 
 
 
-# note : 
+# NOTE : 
 # 1) here the time complexity is O(n/2) -> O(n) as 1/2 is negligible
 # 2) space complexity is not constant as the array(result) is proportional to number of divisors the input number has 
 # - hence space complexity is O(k) where k = number of divisors 
@@ -89,7 +89,7 @@ number = int(input('enter the number : '))
 print(getDivisors(number))
 # attempt-3-end : 
 
-# note : 
+# NOTE : 
 # 1) here the time complexity is O(sqrt(n))
 # 2) space complexity is not constant as the array(result) is proportional to number of divisors the input number has 
 # - hence space complexity is O(k) where k = number of divisors  

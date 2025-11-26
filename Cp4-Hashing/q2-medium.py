@@ -39,7 +39,7 @@
 # print(result_arr)
 # attempt-1-end :
 
-# note in the above i have used list comprehension to a practical extent (please go through the documentation for python list comprehension) 
+# NOTE in the above i have used list comprehension to a practical extent (please go through the documentation for python list comprehension) 
 # I have used dictionary for hashing in the above
 
 # 1) time complexity O(n) (for freq_map) + O(m) (for iterating through m and geting freq from freq_map) => O(n)
