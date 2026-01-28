@@ -16,18 +16,15 @@ def removeDuplicate(arr) :
     return arr[:index]
 
 def removeDuplicateOptimal(arr) :
-    for i in range(0,len(arr)-1):
-        j = i+1
-        while(arr[i] == arr[j]):
-            print(i,j)
-            print(arr[i],arr[j])
-            if(j < len(arr)):
-                print('in here')
-                j+=1
-            else :
-                break
-        # if j != i+1:
-        #     arr[i+1],arr[j] = arr[j],arr[i+1]
-    return arr
+    i = 0
+    j = i+1
+    n = len(arr)
+    while ( j < n ):
+        if(arr[j] != arr[i]):
+            i+=1
+            arr[i],arr[j] = arr[j],arr[i]
+        j+=1    
+    return arr[:i+1]
+        
 
 print(removeDuplicateOptimal(numbers))
