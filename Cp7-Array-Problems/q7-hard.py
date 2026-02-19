@@ -1,4 +1,4 @@
-# v-30 : move zeros to end of the array
+# Move all zeroes to the end of the array
 
 
 numbers = [int(num) for num in input("Enter multiple numbers separated by comma: ").split(',') if num.strip() != '']

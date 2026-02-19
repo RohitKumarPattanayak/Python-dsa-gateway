@@ -1,4 +1,4 @@
-# v-32 merge two sorted array as well remove dumplicates
+# Merge two sorted array as well remove dumplicates
 
 
 arr1 = [int(num) for num in input("Enter multiple numbers separated by comma arr1 : ").split(',') if num.strip() != '']
