@@ -1,4 +1,5 @@
-# v-35 : find the pair in a array whose sum is equal to given n in pair a single number can occur once
+# v-35 : (TWO SUM) find the pair in a array whose sum is equal to given n. 
+# In pair a single number can occur once.
 
 sum_number = int(input("provide a number to find a pair : "))
 num_array = [
@@ -16,7 +17,6 @@ def findAPair(arr,sum_number):
         if target_index>0:
             pairArr.append([i,target_index])
         hashDict[arr[i]] = i
-    print(hashDict)
     return pairArr
 
 print(findAPair(num_array,sum_number))

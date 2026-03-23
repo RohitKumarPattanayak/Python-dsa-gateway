@@ -1,8 +1,6 @@
 # Move all zeroes to the end of the array
 
-
 numbers = [int(num) for num in input("Enter multiple numbers separated by comma: ").split(',') if num.strip() != '']
-
 
 def moveZerosToEnd(arr):
     arrlen = len(arr)

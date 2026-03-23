@@ -7,8 +7,7 @@ numbers = [
 ]
 
 def isSorted(numbers):
-    for i in range(0,len(numbers)-1):
-        print(i,i+1)
+    for i in range(len(numbers)-1):
         if numbers[i] > numbers[i+1]:
             return False
     return True

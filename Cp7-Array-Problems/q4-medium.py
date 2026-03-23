@@ -15,6 +15,8 @@ def removeDuplicate(arr) :
         index+=1
     return arr[:index]
 
+
+# arr = [1,21,2,1,23,1,2,3,3,22,2,24]
 def removeDuplicateOptimal(arr) :
     i = 0
     j = i+1
