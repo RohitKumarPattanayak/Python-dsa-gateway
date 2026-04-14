@@ -5,6 +5,7 @@ numbers = [
     for item in input("Enter comma sepoarated numbers :").split(',')
     if item.strip != ''
 ]
+
 def removeDuplicate(arr) :
     heap = {}
     for i in arr:

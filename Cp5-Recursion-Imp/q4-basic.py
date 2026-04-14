@@ -1,4 +1,4 @@
-# 1) Question : find the factorial of given number N
+# 1) Question : reverse the given array using recusrsion
 
 # attempt-1-start : 
 # def _factorial(N):
