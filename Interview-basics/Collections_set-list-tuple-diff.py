@@ -1,5 +1,5 @@
 # List  = [] ordered and changeable. Duplicates OK
-# Set   = {} unordered and changeable, but Add/Remove OK. NO duplicates
+# Set   = {} unordered and changeable, but Add/Remove OK. NO duplicates, None indexable
 # Tuple = () ordered and unchangeable (IMMUTABLE). Duplicates OK. FASTER   -> can be used when there is a fixed collection required and also can be used as a dictionary keys
 
 # RIGHT
