@@ -77,20 +77,20 @@ def transpose_universal(matrix):
 
 
 # ---------------- USAGE ----------------
-print("PRINT MATRIX")
-print_matrix(matrix)
+# print("PRINT MATRIX")
+# print_matrix(matrix)
 
-print("\nUPPER TRIANGLE")
-print_upper_triangle(matrix)
+# print("\nUPPER TRIANGLE")
+# print_upper_triangle(matrix)
 
-print("\nLOWER TRIANGLE")
-print_lower_triangle(matrix)
+# print("\nLOWER TRIANGLE")
+# print_lower_triangle(matrix)
 
-print("\nDIAGONAL")
-print_diagonal(matrix)
+# print("\nDIAGONAL")
+# print_diagonal(matrix)
 
-print("\nSQUARE TRANSPOSE")
-transpose_square([row[:] for row in matrix])  # copy to avoid modifying original
+# print("\nSQUARE TRANSPOSE")
+# transpose_square([row[:] for row in matrix])  # copy to avoid modifying original
 
-print("\nUNIVERSAL TRANSPOSE")
-transpose_universal(matrix_2)
+# print("\nUNIVERSAL TRANSPOSE")
+# transpose_universal(matrix_2)

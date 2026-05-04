@@ -1,5 +1,4 @@
 # Remove duplicate from an sorted array
-
 numbers = [
     int(item)
     for item in input("Enter comma sepoarated numbers :").split(',')
@@ -16,7 +15,6 @@ def removeDuplicate(arr) :
         index+=1
     return arr[:index]
 
-
 # arr = [1,21,2,1,23,1,2,3,3,22,2,24]
 def removeDuplicateOptimal(arr) :
     i = 0
@@ -29,5 +27,4 @@ def removeDuplicateOptimal(arr) :
         j+=1    
     return arr[:i+1]
         
-
 print(removeDuplicateOptimal(numbers))

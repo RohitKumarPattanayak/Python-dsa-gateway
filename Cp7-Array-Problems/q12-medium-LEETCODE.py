@@ -1,4 +1,4 @@
-# v-36 :find the maxium sum array from an array
+# v-36 :find the maxium sum sub array from an array
 
 # KADENCE ALGORITHEM
 
