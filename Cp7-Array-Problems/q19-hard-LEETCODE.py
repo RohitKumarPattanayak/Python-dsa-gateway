@@ -18,23 +18,20 @@
 
 
 
-nums = [1,2,3] 
-k = 3
+nums = [1,1,1] 
+k = 2
 
 def getNoSubK(arr,k):
-    i=0
-    prefix = arr[i]
-    count_sub_arr = 0
-    for j in range(1,len(arr)):
-        prefix+=arr[j]
-        print(i,j,prefix)
-        if prefix == k:
-            count_sub_arr+=1
-        elif prefix > k:
-            i=j-1
-            prefix=arr[i] + arr[j]
-            if prefix == k:
-                count_sub_arr+=1
-    return count_sub_arr
+    hash_prefix_sum = {0:1}
+    numSubArr = 0
+    prefix_sum = 0
+    
+    for i in range(len(arr)):
+        prefix_sum+=arr[i]
+        diff = prefix_sum-k
+        if diff in hash_prefix_sum:
+            numSubArr+=1
+        hash_prefix_sum[prefix_sum] = 1
+    return numSubArr
 
 print(getNoSubK(nums,k))
