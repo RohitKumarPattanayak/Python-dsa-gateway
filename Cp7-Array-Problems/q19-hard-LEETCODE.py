@@ -1,4 +1,4 @@
-# Given an integer array nums and an integer k, return the total number of continuous subarrays whose sum equals k.
+# Given an integer array nums and an integer k, return the total number of contigenious subarrays whose sum equals k.
 
 # A subarray is a contiguous non-empty sequence of elements within an array.
 

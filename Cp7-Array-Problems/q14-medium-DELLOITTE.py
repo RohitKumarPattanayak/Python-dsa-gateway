@@ -35,10 +35,12 @@ def other_mutiply_arr_optimized(arr):
     prefix = 1
     for i in range(len(arr)):
         result[i] *= prefix
+        prefix*=arr[i]
     print("prefix",result)
     suffix = 1
     for i in range(len(arr)-1, -1, -1):
         result[i] *= suffix
+        suffix*=arr[i]
     print("prefix",result)        
     return result
 

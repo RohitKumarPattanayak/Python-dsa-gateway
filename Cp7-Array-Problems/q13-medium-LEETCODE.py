@@ -1,5 +1,5 @@
 # find the Max stock buy/sell profit via an array which represents each day what price was the stock
-# [1,6,3] => meaning day one it was 1rs      and respectively
+# [1,6,3] => meaning day one it was 1rs and respectively
 # now find out the max profit you can make 
 # the output is 5 -> that is if you buy on day one and sell on day 2
 

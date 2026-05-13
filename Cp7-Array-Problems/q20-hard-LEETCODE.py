@@ -1,7 +1,5 @@
 # Longest Subarray With Sum K
-
 # Given an integer array nums and an integer k, return the length of the longest contiguous subarray whose sum equals k.
-
 # If no such subarray exists, return 0.
 
 # Input:

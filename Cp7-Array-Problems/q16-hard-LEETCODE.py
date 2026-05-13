@@ -1,4 +1,4 @@
-# Find the largest concequetive array length from a given array
+# Find the largest concequetive numbered sub array length from a given array
 
 num_arr = [1,99,101,98,2,5,3,100,4]
 
