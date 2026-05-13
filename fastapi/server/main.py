@@ -48,7 +48,7 @@ async def flattenFunc(payload: FlattenDto):
 
     return "Action provide did not match"
 
-
+# Profile with py-spy or pyinstrument to isolate CPU vs. I/O. Common fixes: use async DB drivers (asyncpg/motor), avoid blocking calls in async routes (use run_in_executor), add response caching, tune Uvicorn workers, or move heavy work to a task queue (Celery/ARQ).
 
 
 if __name__ == '__main__':
