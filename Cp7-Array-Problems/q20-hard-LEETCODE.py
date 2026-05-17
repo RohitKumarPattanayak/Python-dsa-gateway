@@ -22,10 +22,10 @@
 # Explanation:
 # The subarray [-1, 2] has sum 1.
 
-nums = [1, -1, 5, -2, 3]
+nums = [1, 3, 15, -2, 31]
 k = 3
 
-def getLongSubArrLenOfK(arr,n):
+def getLongSubArrLenOfK(arr,k):
     prefix_sum = 0
     hash_prefix_sum_index = {}
     longest_len = 0
